@@ -3,6 +3,7 @@
 # ARMouse - AR-Based Robot Controller
 
 ![ARMouse Demo](ARMouse.gif)
+[![ARMouse Demo](ARMouse.gif)](https://youtu.be/8n6la0GBy5c?si=5vXpzIYF9-wf0hpG)
 
 </div>
 
