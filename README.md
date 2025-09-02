@@ -1,4 +1,10 @@
+<div align="center">
+
 # ARMouse - AR-Based Robot Controller
+
+![ARMouse Demo](ARMouse.gif)
+
+</div>
 
 Transform your smartphone into a precision 3D controller for robotic manipulators! This app uses AR tracking combined with Kalman-filtered sensor fusion to for real-time control of robot end-effector.
 
@@ -104,7 +110,7 @@ cd ARMouse
 - **Sensitivity Tuning**: Adjust individual axis sensitivities
 - **Offset Calibration**: Set workspace center and boundaries
 
-## ⚙️ Configuration
+## Configuration
 
 ### ARPoseController Parameters
 
@@ -151,7 +157,7 @@ public AxisMapping inputToRobotMapping = AxisMapping.Direct;
 - **Update Rate**: Unity frame rate dependent (typically 60-120 Hz)
 - **Thread Safety**: Lock-free data exchange between network and main threads
 
-## 📊 Data Processing
+## Data Processing
 
 ### Sensor Data Pipeline
 ```
@@ -175,7 +181,7 @@ x,y,z,rx,ry,rz,gx,gy,gz,ax,ay,az
 - **Sensor Fusion**: Weighted combination of AR and IMU data
 - **Drift Correction**: Automatic gyroscope bias calibration
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Key Features
 - **Real-time Performance**: Sub-10ms latency from phone to robot
@@ -190,7 +196,7 @@ x,y,z,rx,ry,rz,gx,gy,gz,ax,ay,az
 - **Safety Features**: Workspace limits and collision avoidance
 - **Fixed Orientation**: Currently uses fixed end-effector rotation (180°, 0°, 0°)
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Network & Connection Issues
 - **WiFi Connection**: Ensure both devices are on the same network
